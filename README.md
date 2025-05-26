@@ -20,7 +20,14 @@ Run the image as container:
 ```bash
 docker run -it -p 8080:8080 demo-oidc-rp-localhost:latest
 ```
-Visit http://localhost:8080/ 
+Visit http://localhost:8080/ for the demo.
 
 For changes, modify the file [000-default.conf](apache/000-default.conf), rebuild image and re-create container.
+
+Links to documentation:
+ * [Implementing Service Provider](https://perunaai.atlassian.net/wiki/spaces/EINFRACZ/pages/7929901/Implementing+service+provider) (Perun AAI docs)
+ * mod_auth_openidc directives in [auth_openidc.conf](https://github.com/OpenIDC/mod_auth_openidc/blob/master/auth_openidc.conf)
+ * [mod_auth_openidc Authorization](https://github.com/OpenIDC/mod_auth_openidc/wiki/Authorization)
+ * [mod_authz_core](https://httpd.apache.org/docs/2.4/mod/mod_authz_core.html)
+ * [Dockerfile overview](https://docs.docker.com/build/concepts/dockerfile/)
 
