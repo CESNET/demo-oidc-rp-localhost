@@ -1,5 +1,7 @@
 # OIDC Relying Party Demo on localhost
 
+This repo contains a demo application for the lecture "Perun AAI for service administrators". See the lecture slides and video at [wiki](https://github.com/CESNET/demo-oidc-rp-localhost/wiki).
+
 Prerequisites:
 
  - Docker
