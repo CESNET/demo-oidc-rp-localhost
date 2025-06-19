@@ -20,7 +20,7 @@ docker build -t demo-oidc-rp-localhost:latest .
 ```
 Run the image as container:
 ```bash
-docker run -it -p 8080:8080 demo-oidc-rp-localhost:latest
+docker run -it --rm -p 8080:8080 demo-oidc-rp-localhost:latest
 ```
 Visit http://localhost:8080/ for the demo.
 
